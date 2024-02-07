@@ -7,11 +7,11 @@ class TagCreatorView:
     '''
 
     def __validate(self, product_code: str):
-        # validate
+        '''validate tags'''
         print('validate', product_code)
 
     def __create_tag(self, product_code: str):
-        # create tag
+        '''create tag'''
         tag_creator_controller = TagCreatorController()
         formatted_response = tag_creator_controller.create(product_code)
         return formatted_response
