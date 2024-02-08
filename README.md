@@ -1,4 +1,4 @@
-# Desafio backend IBM
+# NLW 14 Expert Trilha Python
 
 ## ✨ Challenge
 
