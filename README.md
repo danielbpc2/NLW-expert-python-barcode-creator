@@ -18,7 +18,9 @@
 
 ## ▶️ To run this project:
 Install all the requirements and run `py .\run.py`
+For unit testing run `pytest`
 
 # Endpoints:
 *  POST `/create_tag`
 receives a body: `{"product_code": "string"}`
+
