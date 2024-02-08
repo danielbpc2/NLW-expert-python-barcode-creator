@@ -4,7 +4,8 @@
 ## ✨ Challenge
   Create an small api using Flask and Barcode.
   The endpoint will validate, and create an PNG image with a barcode.
-   
+
+
 ## 🖥 TechStack
 * Python
 * Flask
@@ -17,3 +18,7 @@
 
 ## ▶️ To run this project:
 Install all the requirements and run `py .\run.py`
+
+# Endpoints:
+*  POST `/create_tag`
+receives a body: `{"product_code": "string"}`
